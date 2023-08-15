@@ -2,8 +2,8 @@ exports.create = (req, res) => {
     res.send({ message: "create handler" });
 };
 
-exports.findALL = (req, res) => {
-    res.send({ massage: "findALL handler" });
+exports.findAll = (req, res) => {
+    res.send({ massage: "findAll handler" });
 };
 
 exports.findOne = (req, res) => {
@@ -18,10 +18,10 @@ exports.delete = (req, res) => {
     res.send({ massage: "delete handler" });
 };
 
-exports.deletALL = (req, res) => {
-    res.send({ massage: "deletALL handler" });
+exports.deleteAll = (req, res) => {
+    res.send({ massage: "deletAll handler" });
 };
 
-exports.findALLFavorite = (req, res) => {
-    res.send({ massage: "findALLFavorite handler" });
+exports.findAllFavorite = (req, res) => {
+    res.send({ massage: "findAllFavorite handler" });
 };
